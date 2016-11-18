@@ -1,0 +1,43 @@
+body {
+    font-family: Calibri, arial;
+    color: #505050;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 5px;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+li {
+    float: left;
+    background-color: #333;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.container {
+  padding-top: 4em;
+}
